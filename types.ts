@@ -1,4 +1,10 @@
 
+export enum Provider {
+  Gemini = 'Gemini',
+  OpenAI = 'OpenAI',
+  DeepSeek = 'DeepSeek'
+}
+
 export enum Tone {
   Funny = 'Funny',
   Emotional = 'Emotional',
